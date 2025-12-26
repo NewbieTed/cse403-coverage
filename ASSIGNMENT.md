@@ -177,17 +177,11 @@ One team member should submit both portions to **Gradescope**:
 
 ### Creating Your Submission Archive
 
-**macOS/Linux/Windows WSL:**
 ```bash
 # From the parent directory of your coverage folder:
 tar -czf coverage.tar.gz coverage/
 ```
 
-**Windows (PowerShell):**
-```powershell
-# From the parent directory of your coverage folder:
-tar -czf coverage.tar.gz coverage/
-```
 
 This creates a compressed archive containing your entire git repository with all tagged commits.
 
